@@ -6,39 +6,16 @@ public class Scaler : MonoBehaviour
 {
     [SerializeField] private float _speed;
 
-    private Vector3 _minScale;
-    private Vector3 _maxScale;
+    private Vector3 _startingScale;
 
-    private bool _hasReached;
-
-    private void Start()
+    private void Awake()
     {
-        _minScale = transform.localScale;
-        _maxScale = new Vector3(2f, 2f, 2f);
-
-        _hasReached = false;
+        _startingScale = transform.localScale;
     }
 
     private void Update()
     {
-        Scale();
-    }
-
-    private void Scale()
-    {
-        if (_hasReached)
-        {
-            transform.localScale -= transform.localScale * _speed * Time.deltaTime;
-
-            if (transform.localScale.x <= _minScale.x)
-                _hasReached = false;
-        }
-        else
-        {
-            transform.localScale += transform.localScale * _speed * Time.deltaTime;
-
-            if (transform.localScale.x >= _maxScale.x)
-                _hasReached = true;
-        }
+        transform.localScale =
+            _startingScale + TransformChanger.GetOffset(Vector3.one ,_speed);
     }
 }

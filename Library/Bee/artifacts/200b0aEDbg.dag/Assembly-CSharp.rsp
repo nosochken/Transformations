@@ -354,8 +354,11 @@
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/Mover.cs"
+"Assets/Scripts/ReciprocatingMover.cs"
+"Assets/Scripts/ReciprocatingRotator.cs"
 "Assets/Scripts/Rotator.cs"
 "Assets/Scripts/Scaler.cs"
+"Assets/Scripts/TransformChanger.cs"
 -langversion:9.0
 
 /deterministic

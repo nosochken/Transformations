@@ -1,32 +1,34 @@
 ﻿<Properties StartupConfiguration="{C753D77A-766F-8875-0018-5260DBD25475}|">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Mover.cs">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scaler.cs">
     <Files>
-      <File FileName="Assets/Scripts/Mover.cs" Line="67" Column="11" />
-      <File FileName="Assets/Scripts/Scaler.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Rotator.cs" Line="1" Column="1" />
+      <File FileName="../../../Downloads/0c70bca7674a43a596aacd0627531f0f-e8763b4ef35c9622d56cfcb6d634fbd496aff209/Oscillator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Mover.cs" Line="8" Column="31" />
+      <File FileName="Assets/Scripts/Scaler.cs" Line="17" Column="6" />
+      <File FileName="Assets/Scripts/Rotator.cs" Line="9" Column="1" />
+      <File FileName="Assets/Scripts/Oscillator.cs" />
+      <File FileName="Assets/Scripts/TransformChanger.cs" Line="18" Column="2" />
+      <File FileName="Assets/Scripts/ReciprocatingRotator.cs" Line="6" Column="34" />
+      <File FileName="Assets/Scripts/ReciprocatingMover.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Transformations" expanded="True">
+          <Node name="Transformations">
             <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True" />
+              <Node name="Scripts" expanded="True">
+                <Node name="Scaler.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
-      <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
-      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore>
-      <Breakpoint file="/Users/evelinanoskova/Documents/Unity (project)/Transformations/Assets/Scripts/Mover.cs" relfile="Assets/Scripts/Mover.cs" line="20" column="1" />
-    </BreakpointStore>
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="04e432b9-41b5-448d-ba5c-083d305d3d9d" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e05739fc-b64a-492f-8968-206e4c7b4f34" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>
