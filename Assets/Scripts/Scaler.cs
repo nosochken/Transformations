@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Scaler : MonoBehaviour
@@ -15,7 +13,6 @@ public class Scaler : MonoBehaviour
 
     private void Update()
     {
-        transform.localScale =
-            _startingScale + TransformChanger.GetOffset(Vector3.one ,_speed);
+        transform.localScale = _startingScale * Interpolation.Sine(_speed) + Vector3.one;
     }
 }

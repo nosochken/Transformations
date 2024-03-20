@@ -1,18 +1,17 @@
 ﻿<Properties StartupConfiguration="{C753D77A-766F-8875-0018-5260DBD25475}|">
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Scaler.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Rotator.cs">
     <Files>
       <File FileName="../../../Downloads/0c70bca7674a43a596aacd0627531f0f-e8763b4ef35c9622d56cfcb6d634fbd496aff209/Oscillator.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Mover.cs" Line="8" Column="31" />
-      <File FileName="Assets/Scripts/Scaler.cs" Line="17" Column="6" />
-      <File FileName="Assets/Scripts/Rotator.cs" Line="9" Column="1" />
-      <File FileName="Assets/Scripts/Oscillator.cs" />
-      <File FileName="Assets/Scripts/TransformChanger.cs" Line="18" Column="2" />
-      <File FileName="Assets/Scripts/ReciprocatingRotator.cs" Line="6" Column="34" />
-      <File FileName="Assets/Scripts/ReciprocatingMover.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Mover.cs" Line="16" Column="2" />
+      <File FileName="Assets/Scripts/Scaler.cs" Line="5" Column="42" />
+      <File FileName="Assets/Scripts/Rotator.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RotatorRepeating.cs" Line="3" Column="30" />
+      <File FileName="Assets/Scripts/MoverRepeating.cs" Line="3" Column="28" />
+      <File FileName="Assets/Scripts/Interpolation.cs" Line="3" Column="27" />
+      <File FileName="Packages/packages-lock.json" Line="1" Column="1" />
+      <File FileName="Packages/manifest.json" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -20,7 +19,7 @@
           <Node name="Transformations">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="Scaler.cs" selected="True" />
+                <Node name="MoverRepeating.cs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -28,7 +27,9 @@
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="e05739fc-b64a-492f-8968-206e4c7b4f34" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="0f004cb5-a024-4384-b02b-f34054da82ae" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

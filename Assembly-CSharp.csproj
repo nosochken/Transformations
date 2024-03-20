@@ -60,12 +60,12 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.19f1/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Scripts/TransformChanger.cs" />
+    <Compile Include="Assets/Scripts/MoverRepeating.cs" />
+    <Compile Include="Assets/Scripts/RotatorRepeating.cs" />
     <Compile Include="Assets/Scripts/Mover.cs" />
-    <Compile Include="Assets/Scripts/ReciprocatingRotator.cs" />
     <Compile Include="Assets/Scripts/Scaler.cs" />
     <Compile Include="Assets/Scripts/Rotator.cs" />
-    <Compile Include="Assets/Scripts/ReciprocatingMover.cs" />
+    <Compile Include="Assets/Scripts/Interpolation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

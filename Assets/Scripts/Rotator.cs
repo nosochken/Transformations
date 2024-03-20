@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Numerics;
 using UnityEngine;
 
 public class Rotator : MonoBehaviour
@@ -9,10 +6,10 @@ public class Rotator : MonoBehaviour
 
     private void Update()
     {
-        Revolve();
+        Rotate();
     }
 
-    public virtual void Revolve()
+    protected virtual void Rotate()
     {
         transform.Rotate(transform.up, _speed * Time.deltaTime);
     }

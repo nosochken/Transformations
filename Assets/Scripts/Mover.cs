@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class Mover : MonoBehaviour
 {
@@ -12,8 +9,8 @@ public class Mover : MonoBehaviour
         Move();
     }
 
-    public virtual void Move()
+    protected virtual void Move()
     {
-        transform.Translate(transform.forward * _speed * Time.deltaTime);
+        transform.Translate(_speed * Time.deltaTime * transform.forward);
     }
 }
